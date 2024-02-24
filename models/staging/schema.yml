@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: taxi-rides-412717
+    schema: taxi_data
+    tables:
+      - name: green_data
+      - name: yellow_data
+      - name: fhv_data
